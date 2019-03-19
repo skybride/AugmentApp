@@ -3,10 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MenuComponent } from './menu/menu.component';
+import { FooterComponent } from './footer/footer.component';
+import { HardwareComponent } from './hardware/hardware.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent,
+    FooterComponent,
+    HardwareComponent,
+    WelcomeComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
